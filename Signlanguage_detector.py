@@ -7,8 +7,8 @@ import math
 cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
 classifier = Classifier(
-    "C:/Users/Kartik/Desktop/signlang/m/keras_model.h5",
-    "C:/Users/Kartik/Desktop/signlang/m/labels.txt"
+    "keras_model.h5", # location where your keras model is stored.
+    "labels.txt"      # location of the label.txt is stored.    
 )
 
 offset = 20
