@@ -11,7 +11,8 @@ offset = 20
 imgSize = 300
 counter = 0
 
-folder = "C:/Users/Kartik/Desktop/signlang/yes"
+#ADD THE LOCATION OF THE FOLDER  YOU WOULD LIKE TO STORE YOUR DESIRED SIGN LANGUAGE AT
+folder = " __ "
 
 while True:
     success, img = cap.read()
